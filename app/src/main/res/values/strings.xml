@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">FitnessMaster</string>
+    <string name="title_home">Exercises</string>
+    <string name="title_search">Search</string>
+    <string name="title_favourites">Favourites</string>
+    <string name="welcome">Welcome</string>
+    <string name="toThe">to the</string>
+    <string name="fitness_master">Fitness Master</string>
+    <string name="categories">Categories</string>
+    <string name="your">Your</string>
+    <string name="search_your">Search Your</string>
+    <string name="exercise">Exercise</string>
+    <string name="category_image">category_image</string>
+    <string name="exercise_image">exercise_image</string>
+    <string name="like_btn">like_btn</string>
+    <string name="body_part_label">Body part :</string>
+    <string name="equipment_label">Equipments :</string>
+    <string name="secondary_muscles_label">Secondary Muscles :</string>
+    <string name="target_label">Target :</string>
+    <string name="instructions">Instructions :</string>
+    <string name="title_about">About Us</string>
+    <string name="title_help">Help</string>
+    <string name="help">Help</string>
+    <string name="help_us_text"><![CDATA[
+This app is designed with a single activity architecture, utilizing multiple fragments to efficiently manage the user interface and core functionalities. This approach ensures smooth navigation and a well-structured design. <br/><br/>
+<b>Room Database:</b> The app employs a Room Database to store and organize gym exercises locally. The exercises include detailed instructions and accompanying GIFs to demonstrate proper form and technique. <br/><br/>
+<b>Comprehensive Exercise Library:</b> Explore a wide variety of exercises targeting different muscle groups. All exercises are dynamically retrieved from the local database to ensure a seamless browsing experience. <br/><br/>
+<b>Navigation Drawer:</b> The intuitive navigation drawer allows users to easily switch between sections such as <b>HOME</b>, <b>FAVORITE EXERCISES</b>, <b>ABOUT US</b>, and <b>HELP</b>. <br/><br/>
+<b>Search and Filter:</b> A powerful search feature helps users quickly find exercises based on specific body parts, equipment, or other criteria, making it easy to tailor workouts to individual preferences. <br/><br/>
+<b>Offline Access:</b> Save exercises for offline use and access them anytime in the <b>Saved Exercises</b> section, ensuring your workouts are always within reach.
+]]></string>
+    <string name="about_us_content"><![CDATA[
+    Discover a comprehensive collection of gym exercises and workout routines, all in one convenient app.<br/><br/>
+    <b>Step-by-Step Guidance:</b> Each exercise includes detailed instructions and animated GIFs to help you perform them with proper form.<br/><br/>
+    <b>Personalized Workouts:</b> Save your favorite exercises and create a tailored fitness experience that suits your goals.<br/><br/>
+    <b>Fast and Intuitive:</b> Enjoy a seamless, user-friendly interface designed for fitness enthusiasts of all levels.<br/><br/>
+    <b>Your Fitness Companion:</b> From beginner to advanced exercises, our app provides everything you need to stay motivated and achieve your fitness goals.
+]]></string>
+
+
+</resources>

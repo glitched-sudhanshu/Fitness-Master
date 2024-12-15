@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.fitnessmaster.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_exerciseFragment"
+            app:destination="@id/exerciseFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.fitnessmaster.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_exerciseFragment"
+            app:destination="@id/exerciseFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_favourites"
+        android:name="com.example.fitnessmaster.ui.favourites.FavouritesFragment"
+        android:label="@string/title_favourites"
+        tools:layout="@layout/fragment_favourites" >
+        <action
+            android:id="@+id/action_navigation_notifications_to_exerciseFragment"
+            app:destination="@id/exerciseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseFragment"
+        android:name="com.example.fitnessmaster.ui.exercise.ExerciseFragment"
+        android:label="ExerciseFragment" >
+
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="equipment"
+            app:argType="string" />
+        <argument
+            android:name="bodyPart"
+            app:argType="string" />
+        <argument
+            android:name="imageUrl"
+            app:argType="integer" />
+        <argument
+            android:name="info"
+            app:argType="string" />
+        <argument
+            android:name="target"
+            app:argType="string" />
+        <argument
+            android:name="secondary_muscle"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_help"
+        android:name="com.example.fitnessmaster.ui.help.HelpFragment"
+        android:label="HelpFragment"
+        tools:layout="@layout/fragment_help"/>
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="com.example.fitnessmaster.ui.aboutUs.AboutUsFragment"
+        android:label="AboutUsFragment" />
+</navigation>

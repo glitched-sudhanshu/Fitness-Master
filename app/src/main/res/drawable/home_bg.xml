@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- Base background color -->
+    <corners
+        android:bottomLeftRadius="100dp"
+        android:bottomRightRadius="500dp" />
+    <solid android:color="@color/yellow_400" /> <!-- Change this to your desired color -->
+</shape>
